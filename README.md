@@ -1,3 +1,10 @@
+IF/ELSE Usage Note
+=================
+
+[if qs="id:LinkedInName” else="You're not Name!”]
+Hi, Name! We're very glad you're here.
+[/if]
+
 WordPress Conditional Content
 =================
 
