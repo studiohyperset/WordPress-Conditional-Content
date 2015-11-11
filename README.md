@@ -5,6 +5,8 @@ IF/ELSE Usage Note
 Hi, Name! We're very glad you're here.
 [/if]
 
+URL Parameter: example.com/?id=Name
+
 WordPress Conditional Content
 =================
 
