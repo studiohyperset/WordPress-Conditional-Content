@@ -55,8 +55,14 @@ class WP_Conditional_Content {
 			elseif ( 'role' == $key )
 				$condition_met = $this->condition_user_role( $value );
 
-			if( ! $condition_met )
-				return '';
+			if( ! $condition_met ){
+
+				if ( isset( $atts['else'] ) )
+					return do_shortcode( $atts['else'] );
+				else
+					return '';
+				
+			}
 
 		}
 
